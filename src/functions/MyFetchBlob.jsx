@@ -16,7 +16,7 @@ function MyFetchBlob() {
         <>
             <div>
                 <h1>
-                    Programa FETCH PUT
+                    Programa FETCH BLOB
                 </h1>
             </div>
         </>
