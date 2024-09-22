@@ -9,11 +9,19 @@ import MyFetchsAPIs from './functions/MyFetchs.jsx'
 import MyFetchPost from './functions/MyFetchPost.jsx'
 import MyFetchPut from './functions/MyFetchPut.jsx'
 import MyFetchBlob from './functions/MyFetchBlob.jsx'
+
+import MyDataTypes from './methods/MyDataTypes.jsx'
+import MyObjects from './methods/MyObjects.jsx'
+
+import { Contador } from './components/Contador.jsx'
+import { ContadorHook } from './components/ContadorHook.jsx'
+import { Login } from './components/Login.jsx'
+import { Usuarios } from './components/Usuarios.jsx'
 import './index.css'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <MyFetchBlob />
+    <ContadorHook />
   </StrictMode>,
 )
